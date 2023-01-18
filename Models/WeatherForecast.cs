@@ -1,4 +1,4 @@
-namespace HotListing.API
+namespace HotListing.API.Models
 {
     public class WeatherForecast
     {

@@ -1,3 +1,4 @@
+using HotListing.API.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotListing.API.Controllers
