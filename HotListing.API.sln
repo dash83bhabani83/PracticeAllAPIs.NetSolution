@@ -5,8 +5,6 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotListing.API", "HotListing.API.csproj", "{3E59E959-8EA9-4A14-BFE1-C201851D4DFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotListing.MinimalAPI", "..\HotListing.MinimalAPI\HotListing.MinimalAPI.csproj", "{A94CD5B4-ED87-44B2-8B01-0343B0E93986}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{3E59E959-8EA9-4A14-BFE1-C201851D4DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E59E959-8EA9-4A14-BFE1-C201851D4DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E59E959-8EA9-4A14-BFE1-C201851D4DFA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A94CD5B4-ED87-44B2-8B01-0343B0E93986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A94CD5B4-ED87-44B2-8B01-0343B0E93986}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A94CD5B4-ED87-44B2-8B01-0343B0E93986}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A94CD5B4-ED87-44B2-8B01-0343B0E93986}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
