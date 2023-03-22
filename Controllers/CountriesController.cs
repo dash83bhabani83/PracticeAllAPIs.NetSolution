@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using HotListing.API.Data;
+using HotListing.API.Models.Country;
 
 namespace HotListing.API.Controllers
 {
@@ -75,8 +76,13 @@ namespace HotListing.API.Controllers
         // POST: api/Countries
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Country>> PostCountry(Country country)
+        public async Task<ActionResult<Country>> PostCountry(CreateCountryDto createCountryDto)
         {
+            var country = new Country
+            {
+                Name= createCountryDto.Name,
+                ShortName=createCountryDto.ShortName,
+            };
             _context.Countries.Add(country);
             await _context.SaveChangesAsync();
 
